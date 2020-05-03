@@ -5,13 +5,14 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { SharedModule } from '../shared/shared.module';
-import { PAGES_ROUTES } from './progress/pages.routes';
+import { PAGES_ROUTES } from './pages.routes';
 import { FormsModule } from '@angular/forms';
 import { ChartsModule } from 'ng2-charts';
 
 //Temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -22,8 +23,9 @@ import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.co
     ProgressComponent,
     Graficas1Component,
     IncrementadorComponent,
-    PagesComponent,
-    GraficaDonaComponent
+    GraficaDonaComponent,
+    AccountSettingsComponent,
+    PagesComponent
   ],
   imports:[
     SharedModule,
